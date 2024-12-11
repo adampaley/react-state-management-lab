@@ -7,3 +7,36 @@ li {
   list-style: none;
   margin: 10px;
 }
+
+.card-wrapper {
+  height: auto;
+  width: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 5px solid black;
+  align-items: center;
+}
+
+.name {
+  text-align: center;
+  height: 15px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.stat span {
+  font-size: 0.75rem;
+}
